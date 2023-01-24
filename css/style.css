@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+
+
+/* 
+------------------
+buger
+------------------
+ */
+
+ .bauger-1{
+    background-color: #add8e6;
+    height: 80px;
+ }
+
+.bauger-2{
+    background-color: #daa520;
+    height: 40px; 
+}
+
+.bauger-3{
+    background-color: #00008b;
+    height: 500px;
+}
+
+.bauger-4{
+    background-color: #ee82ee;
+    height: 440px;
+}
+.bauger-5{
+    height: 500px;
+}
+.bauger-6{
+    background-color: #1e90ff;
+    height: 440px;
+}
+
+.bauger-7{
+    background-color: #ffc0cb;
+    height: 440px;
+}
+.bauger-8{
+    background-color: #d3d3d3;
+    height: 1000px;
+}
+.bauger-9{
+    background-color: #228b22;
+    height: 880px;
+}
+footer{
+    background-color: #23272a;
+    height: 1000px;
+}
+.colum{
+    background-color: #20b2aa;
+    height: 400px;
+}
+
+.footer-box{
+    height:60px;
+    background-color: #7fffd4;
+ }
+ .footer-item{
+    background-color: #ffb6c1;
+    height: 30px;
+ }
+
+ /* 
+------------------
+header-top
+------------------
+ */
+.header-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .contenitore-1{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+ }
+ 
+ .item{
+    border: 2px dashed black;
+    width: 20%;
+    height: 100%;
+    line-height: 40px;
+ }
+
+.due{
+    width: 60%;
+    text-align: center;
+ }
+
+ 
+  /* 
+------------------
+header-bottom
+------------------
+ */
+ .header-bottom{
+    justify-content: center;
+    padding-top: 40px;
+ }
+
+ .box-one{
+     width: 60%;
+     margin:0 auto;
+ }
+
+ /* 
+------------------
+main
+------------------
+ */
+ main .main-base:nth-child(even){
+   background-color: #d3d3d3;
+ }
+.main-base{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+
+.blue{
+    width: 50%;
+}
+.rosa{
+    width: 30% ;
+}
+
+.box-two{
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+#reverse{
+    flex-direction: row-reverse;
+}
+
+/* 
+------------------
+footer
+------------------
+ */
+  .colum{
+    width: calc(80% / 5);
+    border: 1px dashed white;  
+}
+
+#special-colum{
+    background-color: #f08080;
+    border: 1px solid black;
+}
+.footer{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+
+.footer-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.footer-item{
+    width: 10%;
+    border: 1px dashed black;
+}
