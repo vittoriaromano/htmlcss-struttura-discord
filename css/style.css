@@ -98,6 +98,9 @@ header-top
     text-align: center;
  }
 
+ .tre{
+    text-align:end;
+ }
  
   /* 
 ------------------
@@ -159,6 +162,7 @@ footer
 #special-colum{
     background-color: #f08080;
     border: 1px solid black;
+    width: 34%;
 }
 .footer{
    display: flex;
